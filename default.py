@@ -60,7 +60,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"url":"https://dl.dropbox.com/s/jxfk0r5azrnqpja/BASSFOXCRISTIANVERON.xml.xml?", "fanart": "http://latino-webtv.com/iptv/logos/fanart.jpg", "genre": "Tv Live", "date": "25.11.2015", "credits": "VERON", "thumbnail": "http://i61.tinypic.com/mufy55.jpg"}]
+SOURCES = [{"url":"https://dl.dropbox.com/s/jxfk0r5azrnqpja/BASSFOXCRISTIANVERON.xml.xml?", "fanart": "https://bibliotecadeinvestigaciones.files.wordpress.com/2012/01/pasado-perfecto.jpg", "genre": "Tv Live", "date": "25.11.2015", "credits": "VERON", "thumbnail": "http://orig12.deviantart.net/9da2/f/2009/010/b/c/retro_by_vinhfx.jpg"}]
     
 """
 if os.path.exists(source_file)==True:
@@ -90,7 +90,7 @@ def makeRequest(url, headers=None):
             elif hasattr(e, 'reason'):
                 addon_log('We failed to reach a server.')
                 addon_log('Reason: %s' %e.reason)
-                xbmc.executebuiltin("XBMC.Notification(Bassfox,We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
+                xbmc.executebuiltin("XBMC.Notification(RETROADDONS,We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
 
 
 def getSources():
