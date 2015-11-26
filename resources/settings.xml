@@ -1,5 +1,5 @@
 ﻿<settings>
-  <category label="BassFox Addon">
+  <category label="RETROADDONS">
     <setting id="Updatecommonresolvers" label="Update Commonresolver from Genesis" type="bool" default="true" visible="false"/>
 	<setting type="lsep" label="[COLOR dimgray]»–––––––ooO-[/COLOR](•(-•(-•( Actualización - Update 08/11/2015 )•-)•)•-)•[COLOR dimgray]Ooo––––-–––––––»[/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.bassfox/?mode=7)" />
         <setting type="lsep" label="[COLOR dimgray]»––––[/COLOR]•(-•( Gracias por tu Preferencia - Thank you for your preference )•-)•[COLOR dimgray]––––»[/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.bassfox/?mode=7)" />
